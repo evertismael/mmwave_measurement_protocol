@@ -7,8 +7,8 @@ addpath(genpath('./meas_libs/'));
 % -------------------------------------------------------------------------
 % 0010: Load data from if_cube file, and reconstruct rdr from file
 % -------------------------------------------------------------------------
-dataset_path = './Dataset/';
-trial = 'adc_data_03';
+dataset_path = 'C:\ti\mmwave_studio_02_01_01_00\mmWaveStudio\PostProc\dataset\';
+trial = 'exp_01_Raw_0';
 BW = 4;
 duty_cycle = 100;
 

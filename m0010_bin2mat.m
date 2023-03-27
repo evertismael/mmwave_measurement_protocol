@@ -1,13 +1,14 @@
 clear all; clc; close all;
 addpath(genpath('MatlabExamples'));
 addpath(genpath('./meas_libs/'));
+addpath(genpath('./0010_matlab_main_imports/'));
 
 % -------------------------------------------------------------------------
 % convert from bin to mat file:
 % -------------------------------------------------------------------------
-dataset_path = 'C:\ti\mmwave_studio_02_01_01_00\mmWaveStudio\PostProc\dts_01\';
+dataset_path = 'C:\ti\mmwave_studio_02_01_01_00\mmWaveStudio\PostProc\dataset\';
 cfg_file = [dataset_path, 'cfg.setup.json'];
-trial = 'adc_data_03';
+trial = 'exp_01_Raw_0';
 
 %dataset_path = './20230124_dataset/';
 %cfg_file = [dataset_path, 'trial_y.setup.json'];
