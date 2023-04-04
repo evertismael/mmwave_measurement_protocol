@@ -28,5 +28,7 @@
 > > > 2. cfg_file: change the name of the json-configuration file is needed.
 > > > 3. trial: name of the bin-file of the experiment.
 > > The output of this script is a  .mat file in the same folder: dataset_path. 
+
+
 > m0020_radar_proc.m
 > > It reads the .mat file that is the output of the previous script. It computes the RDM, doppler spectrogram, etc.
